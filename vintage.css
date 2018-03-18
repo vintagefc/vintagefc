@@ -49,3 +49,7 @@ body {
   color: black;
   margin: 1px 8px 1px 0px;
 }
+
+.search-box {
+  width: calc(100% - 80px);
+}
