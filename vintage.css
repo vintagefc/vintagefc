@@ -1,0 +1,51 @@
+body {
+  background-color:#FEF602;
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#FEF602, endColorstr=#018C3D);
+  background-image:-moz-linear-gradient(left, #FEF602 46%, #018C3D 100%);
+  background-image:-webkit-linear-gradient(left, #FEF602 46%, #018C3D 100%);
+  background-image:-ms-linear-gradient(left, #FEF602 46%, #018C3D 100%);
+  background-image:linear-gradient(left, #FEF602 46%, #018C3D 100%);
+  background-image:-o-linear-gradient(left, #FEF602 46%, #018C3D 100%);
+  background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(46%,#FEF602), color-stop(100%,#018C3D));
+}
+
+.advertisement-images {
+  margin: 2px 6px 2px 2px;
+}
+
+.nav-link-border {
+  border-right:3px solid white;
+  margin-right: 8px;
+}
+
+.menu-background {
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#003311;
+  background-size:16px 16px;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #white;
+  text-align: left;
+  background: rgba(9,17,56,0.7);
+}
+
+.cap-paragraph {
+  margin:0px 20px 10px 20px;
+}
+
+.social-icons {
+  color: black;
+  margin: 1px 8px 1px 0px;
+}
