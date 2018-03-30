@@ -1,0 +1,129 @@
+body {
+  background-color:#FEF602;
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#FEF602, endColorstr=#018C3D);
+  background-image:-moz-linear-gradient(left, #FEF602 46%, #018C3D 100%);
+  background-image:-webkit-linear-gradient(left, #FEF602 46%, #018C3D 100%);
+  background-image:-ms-linear-gradient(left, #FEF602 46%, #018C3D 100%);
+  background-image:linear-gradient(left, #FEF602 46%, #018C3D 100%);
+  background-image:-o-linear-gradient(left, #FEF602 46%, #018C3D 100%);
+  background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(46%,#FEF602), color-stop(100%,#018C3D));
+}
+
+.advertisement-images {
+  margin: 2px 6px 2px 2px;
+}
+
+.nav-link-border {
+  border-right:3px solid white;
+  margin-right: 8px;
+}
+
+.menu-background {
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#003311;
+  background-size:16px 16px;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #white;
+  text-align: left;
+  background: rgba(9,17,56,0.7);
+}
+
+.cap-paragraph {
+  margin:0px 20px 10px 20px;
+}
+
+.social-icons {
+  color: black;
+  margin: 1px 8px 1px 0px;
+}
+
+.pb-video-container {
+  padding-top: 10px;
+  background: #003311;
+  padding-bottom: 10px;
+}
+
+.pb-video {
+  border: 1px solid #e6e6e6;
+  padding: 5px;
+}
+
+.pb-video:hover {
+  background: rgba(9,17,56,0.7);
+}
+
+.pb-video-frame {
+  transition: width 2s, height 2s;
+}
+
+.pb-video-frame:hover {
+  height: 300px;
+}
+
+.pb-row {
+  margin-bottom: 10px;
+}
+
+#search-box {
+position: relative;
+width: 20%;
+margin: 0;
+}
+
+#search-form
+{
+height: 40px;
+border: 1px solid #999;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background-color: #fff;
+overflow: hidden;
+}
+
+#search-text
+{
+font-size: 14px;
+color: #ddd;
+border-width: 0;
+background: transparent;
+}
+
+#search-box input[type="text"]
+{
+width: 90%;
+padding: 11px 0 12px 1em;
+color: #333;
+outline: none;
+}
+
+#search-button {
+position: absolute;
+top: 0;
+right: 0;
+height: 40px;
+width: 30%;
+font-size: 14px;
+color: #fff;
+text-align: center;
+line-height: 42px;
+border-width: 0;
+background-color:#c0c0c0;
+-webkit-border-radius: 0px 5px 5px 0px;
+-moz-border-radius: 0px 5px 5px 0px;
+border-radius: 0px 5px 5px 0px;
+cursor: pointer;
+}
